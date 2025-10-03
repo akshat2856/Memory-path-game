@@ -1,16 +1,54 @@
-# React + Vite
+# 🎮 Memory Path Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a fun, mind-testing game built with **React** and **Vite** that challenges players to memorize a sequential path on a grid before time runs out and then navigate it from memory. Each round increases the grid size and path length, pushing your short-term memory limits!
 
-Currently, two official plugins are available:
+## 🚀 Live Application
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+You can play the deployed version of the game directly here:
 
-## React Compiler
+[**Play the Memory Path Game**](https://memory-path-game-suv9-lntzw7dlg-akshats-projects-92e467ae.vercel.app)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+* **Frontend:** React
+* **Build Tool:** Vite
+* **Styling:** Tailwind CSS (with `@tailwindcss/postcss` and `autoprefixer`)
+* **Icons:** Lucide React
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 💻 Local Development Setup
+
+Follow these steps to get the game running on your local machine.
+
+### Prerequisites
+
+You need to have **Node.js** installed on your system.
+
+### Installation
+
+1.  **Clone the Repository** (replace with your actual repository URL):
+    ```bash
+    git clone [YOUR_REPOSITORY_URL]
+    cd memory-path-game
+    ```
+
+2.  **Install Dependencies:**
+    This command installs all required packages listed in `package.json`.
+
+    ```bash
+    npm install
+    # or
+    yarn install
+    # or
+    pnpm install
+    ```
+
+### Running the Application
+
+Once the dependencies are installed, you can start the local development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
